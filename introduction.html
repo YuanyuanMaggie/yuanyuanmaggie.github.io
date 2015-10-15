@@ -16,6 +16,7 @@
     <style type="text/css">
     body{
     	padding-top: 50px;
+      padding-bottom: 50px; 
     	}
     .carousel{
     	height: 400px;
@@ -28,25 +29,28 @@
     }
     .carousel .img{
     	width: 100%;}
-    	.carousel-caption p{
+    .carousel-caption p{
     		margin-bottom: 90px;
     		font-size: 20px;
-    		line-height: 1.8;
-    	}
-#intership .col-md-4{
-	text-align: center;
-
-}
-hr.divider{
-	margin: 80 px 0;
-}
+    		line-height: 1.8;}
+    #intership .col-md-4{
+          text-align: center;}
+    hr.divider{margin: 80 px 0;}
+    .feature{padding: 30 px 0;}
+    .feature-heading{
+      font-size: 60 px;
+      color: #2a6496;
+      margin-top: 120 px;}
+      .feature-heading .text-muted{
+        font-size: 20 px;
+        color: #999;}
     	</style>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container">
     	<div class="navbar-header">
-    		<button type="button" class="navbar-toggle collapsed"data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    		<button type="button" class="navbar-toggle collapsed"data-toggle="collapse" data-target="#mynavbar">
     			<span class="sr-only">Toggle navigation</span>
     			<span class="icon-bar"></span>
     			<span class="icon-bar"></span>
@@ -54,12 +58,19 @@ hr.divider{
     		</button>
     		<a class="navbar-brand" href="#">Yuanyuan Li</a>
     		</div>
-    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    		<div class="collapse navbar-collapse" id="mynavbar">
     			<ul class="nav navbar-nav">
-    				<li class="active"><a href="#">Projects</a>
-    				<li class="active"><a href="#">Internship</a>
-    				<li class="active"><a href="#">Education</a></li>
-    				<li class="active"><a href="#">Resume</a></li>
+    				<!--
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Orchestra</li>
+            </ul>
+            -->
+            <li><a href="#HCI">Projects</a></li>
+    				<li><a href="#coll">Internship</a></li>
+    				<li><a href="#">Education</a></li>
+    				<li ><a href="#">Resume</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#about">About</a></li>
     			</ul>
     		</div>
     	</div>
@@ -121,12 +132,88 @@ hr.divider{
 	<p>Worked support both Great China Channel Department and Sales Operation Department</p>
 	<p><a class="btn btn-default" href="#" role="button"> View Detail</a></p>
 	</div>
-	<hr class="divider">
+</div>
+<hr class="divider">
+<ul class="nav nav-tabs" role="tablist">
+<li class="active"><a href="#Orchestra" role="tab" data-toggle="tab">Orchestra</a></li>
+<li> <a href="#HCI" role="tab" data-toggle="tab"> HCI Project </a></li>
+<li> <a href="#coll" role="tab" data-toggle="tab"> Collaborative Meeting Project</a></li>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane" id="coll">
+<div class="row feature">
+    <div class="col-md-7">
+      <h2 class="feature-heading"> Orchestra<h4><span class="text-muted">  Software Engineering Project</span></h4></h2>
+      <p class="lead"> Media Enabled Research Interface and Database is 
+      a web application that will enable researchers to run surveys and 
+      research investigations with respondents</p>
+    </div>
+    <div class="col-md-5"><img class="feature-image img-responsive" src="images/SAP.png" alt="Orchestra"> </div>
+    </div>
+  </div>
+  <div class="tab-pane active" id="Orchestra">
+  <div class="row feature">
+    <div class="col-md-7">
+      <h2 class="feature-heading"> Orchestra<h4><span class="text-muted">  Software Engineering Project</span></h4></h2>
+      <p class="lead"> Media Enabled Research Interface and Database is 
+      a web application that will enable researchers to run surveys and 
+      research investigations with respondents</p>
+    </div>
+    <div class="col-md-5"><img class="feature-image img-responsive" src="images/pwc.png" alt="Orchestra"> </div>
+    </div>
+  </div>
+   <div class="tab-pane" id="HCI">
+   <div class="row feature">
+   <div class="col-md-5">
+    <img class="feature-image img-responsive" src="images/Netapp.png" alt="Orchestra"> </div>
+     <div class="col-md-7">
+      <h2 class="feature-heading"> Orchestra<h4><span class="text-muted">  Software Engineering Project</span></h4></h2>
+      <p class="lead"> Media Enabled Research Interface and Database is 
+      a web application that will enable researchers to run surveys and 
+      research investigations with respondents</p>
+    </div>
+    </div>
+  </div>
+   </div>
 </div>
     </div>
+<hr class="divider">
+<footer>
+  <p class="pull-right"><a href="#top"> back to top</a></p>
+  <p>  Yuanyuan Li (Email:contact@yuanyuanli.me)</p>
+</footer>
 
+<div class="modal fade" id="about">
+ <div class="modal-dialog">
+ <div class="modal-content">
+   <div class="modal-header">
+   <button type="button" class="closed" data-dismiss="modal">
+   <span aria-hidden="true">&times;</span>
+   <span class="sr-only">Close</span>
+   </button>
+   <h4 class="modal-title">Basic information</h4>
+   </div>
+   <div class="modal-body">
+     <p>So many information</p>
+   </div>
+   <div class="modal-footer">
+   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+   <button type="button" class="btn btn-primary">Save CHange</button>
+   </div>
+ </div>
+ </div>
+ </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function()){
+    $("#mynavigation .nav navbar-nav a").click(function()){
+    var href = $(this).attr("href");
+    $("#tab-list a[href='"+href+"']").tab("show")
+    });
+    });
+</script>
   </body>
 </html>
