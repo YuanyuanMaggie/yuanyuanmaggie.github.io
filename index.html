@@ -56,8 +56,8 @@
          max-width: 130px;
          position: center;
       }
-      #hci img{
-        max-width: 240px;
+      #hci,#delfi,#orchestra,#discussion img{
+        max-width: 260px;
       }
     	</style>
   </head>
@@ -76,17 +76,17 @@
     		<div class="collapse navbar-collapse navbar-right" id="mynavbar">
     			<ul class="nav navbar-nav">
     				<li class="active"><a href="index.html">Home</a></li>
-            <li class="dropdown"><a href="#projects" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><a href="projects.html">Projects</a><span class="caret"></span></a>
             <ul class="dropdown-menu">
-            <li><a href="#">CSCW research</li>
-              <li><a href="#">Software Engineering</li>
-              <li><a href="#">HCI design</li>
-              <li><a href="#">Financial Technology</li>
-              <li><a href="#">iOS development</li>
+            <li><a href="projects.html#cscw">CSCW-research</li>
+              <li><a href="projects.html#software-engineering">Software Engineering</li>
+              <li><a href="projects.html#hci-design">HCI design</li>
+              <li><a href="projects.html#financial-technology">Financial Technology</li>
+              <li><a href="projects.html#ios-development">iOS development</li>
             </ul>
-    				<li><a href="#internship">Internship</a></li>
-    				<li><a href="#education">Education</a></li>
-    				<li ><a href="YuanyuanLi-Resume.pdf">Resume</a></li>
+    				<li><a href="index.html#internship">Internship</a></li>
+    				<li><a href="index.html#education">Education</a></li>
+    				<li ><a href="documents/YuanyuanLi-Resume.pdf">Resume</a></li>
             <li><a href="#" data-toggle="modal" data-target="#contact">Contact</a></li>
     			</ul>
     		</div>
@@ -142,19 +142,25 @@
 <img src="images/pwc.png" alt="Pwc">
 <h2> PwC Intership</h2>
 <h3>Finance System Counsulting Program for one of the biggest Asset Management Company</h3>
-<p><a class="btn btn-success" href="#" role="button"> View Detail</a></p>
+<!---
+<p><a class="btn btn-success" href="#" role="button"> View Detail</a></p> 
+-->
 </div>
 <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 	<img src="images/SAP.png" alt="Pwc">
 	<h2> SAP Intership</h2>
 	<h3>ERP System design and Client service. Working on ERP, HCM, CRM and other systems</h3>
-	<p><a class="btn btn-success" href="#" role="button"> View Detail</a></p>
+	<!--
+  <p><a class="btn btn-success" href="#" role="button"> View Detail</a></p>
+  -->
 </div>
 <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 	<img src="images/Netapp.png" alt="Pwc">
 	<h2> NetApp Intership</h2>
-	<h3>Worked with Great China Channel Department and Sales Operation Department</p>
-	<p><a class="btn btn-success" href="#" role="button"> View Detail</a></h3>
+	<h3>Worked with Great China Channel Department and Sales Operation Department</h3>
+	 <!--
+  <p><a class="btn btn-success" href="#" role="button"> View Detail</a></p>
+  -->
   </div>
 </div> <!--/.row-->  
 </div> <!--/.container-->
@@ -194,7 +200,7 @@
                                                  <p class="lead"> -Developed a web application that will enable researchers to run surveys and research investigations online
                                                  </p>
                                                 <p class="lead"> Skills: Requirements analysis, Rapid Prototypes building (Axure), Front-end development with Bootstrap</p></div><!--col-md-7-->
-                                                 <div class="col-md-5"><img class="feature-image img-responsive" src="images/Home.png" alt="Orchestra">
+                                                 <div class="col-md-5" id="orchestra"><img class="feature-image img-responsive" src="images/Home.png" alt="Orchestra">
                                                  </div><!--col-md-5-->
                                                  </div><!--media-body-->
                                             </div><!--media-->
@@ -225,7 +231,7 @@
 
                                                  </p>
                                                  <p class="lead">Skills: User Experience research, data analysis, PHP development and writing skills </p></div><!--col-md-7-->
-                                                 <div class="col-md-5"><img class="feature-image img-responsive" src="images/discussion.png" alt="Discussion">
+                                                 <div class="col-md-5" id="discussion"><img class="feature-image img-responsive" src="images/discussion.png" alt="Discussion">
                                                 </div><!--col-md-5-->
                                             </div>
                                         </div>
@@ -234,7 +240,7 @@
                                      <div class="tab-pane fade" id="tab4">
                                        <div class="media">
                                             <div class="media-body">
-                                                <div class="col-md-5"><img class="feature-image img-responsive" src="images/Delfi.png" alt="Delfi">
+                                                <div class="col-md-5" id="delfi"><img class="feature-image img-responsive" src="images/Delfi.png" alt="Delfi">
                                                 </div><!--col-md-5-->
                                                  <div class="col-md-7">
                                                  <h2 class="feature-heading"> Delfi Sollution<h4><span class="text-muted">  Finance and Technology Hackathon</span></h4></h2>
@@ -304,7 +310,6 @@
                                 <h2>University of International Business and Economics</h3>
                                 <h3>Industry Economics (Master)<br>
                                 <h4>Sep. 2014 -- June. 2016 </h5>
-                                Level: Bachelor</h4>
                                 <p>Main courses: Advanced Economics, System Analysis and Design, Economics Data Analysis, Research Methods, Technology and Finance, and Internatinal Business </p>
                                 <a href="#">Detail</a>
                             </div>
