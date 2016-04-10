@@ -442,11 +442,11 @@
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
     <script type="text/javascript">
-    $(document).ready(function()){
-    $("#mynavigation .nav navbar-nav a").click(function()){
+    $(document).ready(function(){
+    $("#mynavigation .nav navbar-nav a").click(function(){
     var href = $(this).attr("href");
     $("#tab-list a[href='"+href+"']").tab("show")
-    });
+      });
     });
 </script>
   </body>
