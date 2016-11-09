@@ -1,0 +1,131 @@
+{
+ "name": "Yuanyuan Li",
+ "children": [
+  {
+   "name": "UI Design",
+   "children": [
+    {
+     "name": "Wireframing",
+     "children": [
+      {"name": "Axure RP", "size": 3938},
+      {"name": "Visio", "size": 3812},
+      {"name": "Photoshop CC", "size": 6714},
+      {"name": "inVision", "size": 743},
+      {"name": "pen and paper", "size": 743}
+     ]
+    },
+    {
+     "name": "Rapid Prototyping",
+     "children": [
+      {"name": "Low fidelity", "size": 3534},
+      {"name": "Medium fidelity", "size": 5731},
+      {"name": "High fidelity", "size": 7840}
+     ]
+    },
+    {
+     "name": "Responsive Design",
+     "children": [
+      {"name": "Sketch 3", "size": 7074},
+      {"name": "Photoshop CC", "size": 7074},
+      {"name": "HTML/CSS/JavaScript", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "UX Research",
+   "children": [
+    {
+     "name": "Core Skills",
+     "children": [
+      {"name": "User Research", "size": 1983},
+      {"name": "User Modeling (Persona/scenario/role-playing)", "size": 2047},
+      {"name": "Interaction Design (Function-level)", "size": 1375},
+      {"name": "Interface Design (Component-level)", "size": 8746},
+      {"name": "Architecture Design", "size": 2202}
+     ]
+    },
+    {
+     "name": "Usability Skills",
+     "children": [
+      {"name": "Usability Testing", "size": 1983},
+      {"name": "Cognitive Psychology", "size": 2047}
+     ]
+    },
+    {"name": "Prototyping", "size": 1041},
+    {"name": "Technical Skills", "size": 5176}
+   ]
+  },
+  {
+   "name": "Web Development",
+   "children": [
+    {
+     "name": "Language",
+     "children": [
+      {"name": "JavaScript", "size": 721},
+      {"name": "PHP", "size": 4294},
+      {"name": "CSS", "size": 9800},
+      {"name": "HTML", "size": 1314},
+      {"name": "Jade", "size": 2220},
+      {"name": "AngularJS", "size": 2220},
+      {"name": "JQuery", "size": 2220}
+     ]
+    },
+    {"name": "Mobile", 
+    "children": [
+      {"name": "HTML5", "size": 721},
+      {"name": "CSS3", "size": 4294},
+      {"name": "Bootstrap", "size": 4294},
+      {"name": "flex", "size": 4294},
+      {"name": "Responsive UI Design", "size": 9800},
+      {"name": "iPhone/iPad/Android", "size": 1314}
+     ]
+    },
+    {"name": "Tools", 
+    "children": [
+      {"name": "Sublime Text", "size": 721},
+      {"name": "SVN/Git", "size": 4294},
+      {"name": "Eclipse", "size": 9800},
+      {"name": "Visual Studio Code", "size": 1314}
+     ]
+    },
+    {"name": "Cross-browser Compatibility", "size": 2165},
+    {"name": "WordPress", "size": 586},
+    {"name": "Server", "size": 3331}
+   ]
+  },
+  {
+   "name": "Full Stack",
+   "children": [
+    {"name": "Web Servers", "size": 1732},
+    {"name": "Programming language", "size": 3623},
+    {"name": "Database", 
+    "children": [
+      {"name": "MySQL", "size": 721},
+      {"name": "MongoDB", "size": 4294},
+        {"name":"FireBase","size":4000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "iOS Development",
+   "children": [
+    {"name": "Swift", "size": 4116},
+    {"name": "XCode", "size": 4116},
+    {"name":"FireBase","size":4000}
+   ]
+  },
+  {
+   "name": "Business Analyst",
+   "children": [
+    {"name": "Communication Skills", "size": 1616},
+    {"name": "Problem-Solving Skills", "size": 1027},
+    {"name": "Negotiation Skills", "size": 3891},
+    {"name": "Critical Thinking Skills", "size": 891},
+    {"name": "Data Analysis", "size": 2893},
+    {"name": "Data Visualization", "size": 5103}
+   ]
+  }
+ ]
+}

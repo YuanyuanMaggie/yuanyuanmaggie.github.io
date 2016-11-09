@@ -929,6 +929,32 @@ ul.info-list li strong {
     max-width: 500px;
     margin:0 auto;
 }
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 14px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+.skillsTree{
+    overflow-x:scroll;
+}
+#skillsTree{
+    min-width:800px;
+    min-height: 800px;
+}
 /* -------------------------
         6. BLOG BLOCK
 ------------------------- */
