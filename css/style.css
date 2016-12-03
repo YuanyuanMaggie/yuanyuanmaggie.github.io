@@ -727,6 +727,8 @@ ul.info-list li strong {
 /* Portfolio */
 #projects {
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #filters {
@@ -806,7 +808,6 @@ ul.info-list li strong {
 .project {
     position: relative;
     width: 33.22222233%;
-    float: left;
     overflow: hidden;
 }
 
@@ -1375,10 +1376,15 @@ ul.info-list li strong {
 
 #close {
     font-size: 20px;
+    margin-top:-4px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .inline-menu {
     float: right;
+    display: flex;
+    font-size: 16px;
+    padding-top: 8px;
 }
 
 .inline-menu li {
@@ -1559,7 +1565,7 @@ h4 .work-place{
         top: 48px;
     }
 }
-
+/*
 @media (min-width:1025px) and (max-width:1280px) {
 
     .name-block {
@@ -1599,19 +1605,16 @@ h4 .work-place{
 		width:350px;
 		height: 300px;
     }
-
     .contact-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 900px;
-        top: -70px;
-		width:350px;
-		height: 300px;
+        left: 1067px;
+        top: 48px;
     }
-}
+}*/
 
-@media (min-width:981px) and (max-width:1024px) {
+@media (min-width:981px) and (max-width:1280px) {
 
     .name-block {
         -ms-transform: rotate(-34deg);
@@ -1901,5 +1904,29 @@ h4 .work-place{
 @media (min-width: 450px){
     #close {
     font-size: 40px;
+    }
+}
+
+@media(max-width:979px) and (min-width: 569px){
+    .home{
+        height:1150px;
+        overflow-y: hidden;
+    }
+}
+@media(min-width:980px){
+    body,
+    .home{
+        height:850px;
+        overflow-y: hidden;
+    }
+}
+@media(max-width: 370px){
+    body,
+    .home{
+        min-width: 370px;
+        overflow-x: scroll;
+    }
+    .inline-menu-container {
+        position: relative;
     }
 }

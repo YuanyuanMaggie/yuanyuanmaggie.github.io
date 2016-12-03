@@ -10,27 +10,19 @@ $(window).load(function() {
 	
     //Portfolio masonry
     var $container = $('#projects');
-    $container.isotope({
-      masonry: {
-       columnWidth: 0
-      },
-      itemSelector: '.project'
-    });
-		
-		$(window).on("resize",function(){
-			$container.isotope({
-				masonry: {
-				columnWidth: 0
-				},
-				itemSelector: '.project'
-			});
-		});
     //Portfolio filters
     $('#filters').on( 'click', 'li', function() {
       $('#filters li').removeClass('active');
       $(this).addClass('active');
       var filterValue = $(this).attr('data-filter');
-      $container.isotope({ filter: filterValue });
+      if(filterValue==="*"){
+      	$(".project").show();
+      }else{
+      	$(".project").hide();
+      	var filter = ".project"+ filterValue;
+      	console.log(filter);
+      	$(filter).slideDown("slow");
+      }
     });	
 	
 })();
