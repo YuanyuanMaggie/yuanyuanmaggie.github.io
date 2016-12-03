@@ -1914,7 +1914,6 @@ h4 .work-place{
     }
 }
 @media(min-width:980px){
-    body,
     .home{
         height:850px;
         overflow-y: hidden;
