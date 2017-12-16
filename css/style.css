@@ -1417,7 +1417,8 @@ ul.info-list li strong {
 
 #post-modal,
 #project-modal {
-	z-index: 99999;
+    z-index: 99999;
+    position: relative;
 }
 
 .content {
