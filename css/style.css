@@ -1404,7 +1404,7 @@ ul.info-list li strong {
 #project-modal,
 #post-modal,
 .content-blocks {
-    position: absolute;
+    position: fixed;
     width: 70%;
     max-height: auto;
     height: 100%;
@@ -1418,7 +1418,6 @@ ul.info-list li strong {
 #post-modal,
 #project-modal {
     z-index: 99999;
-    position: relative;
 }
 
 .content {
