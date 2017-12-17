@@ -1398,7 +1398,7 @@ ul.info-list li strong {
 }
 
 .inline-menu li.active {
-    text-decoration: line-through;
+    color: #F34452;
     cursor: text;
 }
 #project-modal,

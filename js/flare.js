@@ -12,14 +12,12 @@ var tree = d3.layout.tree()
 
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
-console.log("svg");
 
 var svg = d3.select("#skillsTree").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-console.log(svg);
 d3.json("js/flare.json", function(error, flare) {
   if (error) throw error;
 
