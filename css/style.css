@@ -108,6 +108,10 @@ ul {
     padding-left: 0;
 }
 
+ul.list {
+    list-style: inherit;
+    padding-left: 20px;
+}
 strong, small {
     color: #333;
 }
